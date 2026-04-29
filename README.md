@@ -11,21 +11,20 @@ Move away from Microsoft Excel / paid products to a fully free, automated soluti
 - **Tool**: DBeaver
 
 ## Project Structure
-office-database/
-├── README.md
-├── ROADMAP.md
-├── .gitignore
-├── LICENSE
-├── schema/
-├── scripts/
-├── docs/
-└── data/
 
+- **README.md**          - Main project documentation
+- **ROADMAP.md**         - Project development plan  
+- **.gitignore**         - Files and folders to ignore in git
+- **LICENSE**            - Open source license
+- **schema/**            - SQL schema and migration files
+- **scripts/**           - Python automation scripts  
+- **docs/**              - Additional documentation and guides
+- **data/**              - Sample data and spreadsheet imports (not committed)
 
 ## Setup Instructions
-1. Install PostgreSQL and DBeaver
-2. Create database `office_db`
-3. Run schema scripts
+1. Install PostgreSQL and DBeaver on Ubuntu
+2. Create the database `office_db`
+3. Run the schema scripts
 
 ## Status
 Currently in early development (Phase 1 completed).
