@@ -6,3 +6,8 @@ data/*.csv
 data/*.xlsx
 *.log
 .DS_Store
+
+# R history file
+.Rhistory
+.RData
+.Rproj.user
