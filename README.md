@@ -1,14 +1,22 @@
 # Office Database
 
-Personal project to transition from spreadsheet-based record keeping to an automated, modern SQL-based system using open-source tools.
+A personal project to transition from simple spreadsheet-based record keeping to an automated, modern **SQL-based system** using open-source tools.
 
 ## Goal
-Move away from Microsoft Excel / paid products to a fully free, automated solution running on **Ubuntu Linux**.
+Replace Microsoft Excel workflows with a free, scalable, and automated database solution on Ubuntu Linux.
 
 ## Tech Stack
 - **Database**: PostgreSQL
 - **OS**: Ubuntu Linux
-- **Tool**: DBeaver
+- **Primary Tool**: DBeaver
+- **Secondary Tool**: LibreOffice Base (for comparison)
+
+## Tool Comparison
+
+| Tool                | Purpose                        | Strengths                          | Limitations                     | Usage in this Project      |
+|---------------------|--------------------------------|------------------------------------|---------------------------------|----------------------------|
+| **DBeaver**         | Database management            | Excellent PostgreSQL support, powerful SQL editor, schema visualization | Steeper learning curve         | **Primary tool**           |
+| **LibreOffice Base**| Desktop database / forms       | Familiar interface, easy forms     | Weak PostgreSQL support, limited SQL features | **Comparison & testing**   |
 
 ## Project Structure
 
@@ -22,10 +30,11 @@ Move away from Microsoft Excel / paid products to a fully free, automated soluti
 - **data/**              - Sample data and spreadsheet imports (not committed)
 
 ## Setup Instructions
-1. Install PostgreSQL and DBeaver on Ubuntu
-2. Create the database `office_db`
-3. Run the schema scripts
+1. Install PostgreSQL on Ubuntu
+2. Install DBeaver (and optionally LibreOffice Base)
+3. Create the `office_db` database
+4. Run the schema scripts
 
-## Status
-Currently in early development (Phase 1 completed).
+## Current Status
+**Phase 1: Planning & Setup** — Completed ✅
 
